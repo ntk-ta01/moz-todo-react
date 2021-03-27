@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Todo?
+
+* Note: Since we're now utilizing usePrevious() in two files, a good efficiency refactor would be to move the usePrevious() function into its own file, export it from that file, and import it where you need it. Try doing this as an exercise once you've got to the end.
+
+* チェックボックスもキーボードで操作
